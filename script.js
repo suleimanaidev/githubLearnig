@@ -9,7 +9,7 @@ followBtn.addEventListener("click", function () {
         followBtn.classList.add("following");
         alert("Thanks for following me!");
     } else {
-        followBtn.textContent = "Follow Me";
+        followBtn.textContent = "Follow";
         followBtn.classList.remove("following");
     }
 });
